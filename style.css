@@ -738,3 +738,26 @@ body {
   h1{
 	  color: #fff;
   }
+
+  .column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+
+	
+  }
+  
+.row{
+  margin-left: 250px;
+ 
+}
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	
+	
+  }
+
+
+  
