@@ -704,7 +704,7 @@ body {
 
 /* end */
 .about{
-	padding-left: 300px;
+	padding-left: 255px;
 	padding-top: 30px;
 	text-transform: uppercase;
   }
@@ -1002,7 +1002,7 @@ img{
   .container1
 {
   position:relative;
-  width:900px;
+  width:300px;
   display:flex;
   justify-content:space-around;
 }
@@ -1123,3 +1123,8 @@ svg circle:nth-child(2)
   stroke-dashoffset:calc(440 - (440 * 90) / 100);
   stroke:#00ff43;
 }
+.card1{
+	margin-top: 50px;
+	
+}
+
