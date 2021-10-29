@@ -1,5 +1,5 @@
  /* headings */
- .about{
+ .abot{
 	
 	text-transform: uppercase;
   color: white;
@@ -20,6 +20,9 @@
  user-select: none;
  white-space: nowrap;
   }
+  /* end */
+  /* bg img */
+  
   /* end */
 /* timeline */
 header h1{
@@ -993,12 +996,14 @@ header h1{
     }
     }
     /* end */
+   
     .shadow{
       position:relative;
       margin:200px auto 0;
       width:400px;
       height:200px;
       background:black;
+
     }
     .shadow:before,.shadow:after{
       content: '';
@@ -1039,3 +1044,9 @@ header h1{
 body{
     background-color: #000;
 }
+img{
+  border-radius: 50%;
+}
+/* footer */
+
+/* end */
