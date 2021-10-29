@@ -53,7 +53,7 @@
   <!-- Main Wrapper -->
   <div class="p-1 my-container active-cont">
     <!-- Top Nav -->
-    <nav class="navbar top-navbar navbar-light bg-light px-5">
+    <nav class="navbar top-navbar navbar-light px-5">
       <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
     </nav>
     <!--End Top Nav -->
@@ -67,21 +67,25 @@
     
     </div>
 
-    <div class="wrap">
-      <img src="images/bubbles.gif" height="400px" width="400px">
-  </div>
-  <div class="wrp">
-      <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
-          <p>Full name: Devid Chester</p>
-          <p>Age: 24 years</p>
-          <p>Nationality: American</p>
-           <p>Languages: English, French</p>   
-            <p>Address:  121 King Street, Melbourne, Australia</p>  
-             <p> Freelance: Available</p> 
-      </p>
-  </div>
-
-
+    <section id="intro">
+      <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-6 text-center text-md-start">
+                  <h1>
+                      <div class="display-2">Black-Belt</div>
+                      <div class="display-5 text-muted">Your coding skills</div>
+                  </h1>
+                  <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+                  <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+              </div>
+              <div class="col-md-5 text-center d-none d-md-block">
+                 <img src="images/bubbles.gif" width="450px" height="450px">
+              </div>
+          </div>
+      </div>
+  </section>
+ 
+    
 
     <script>
         var menu_btn = document.querySelector("#menu-btn");
@@ -94,8 +98,17 @@ menu_btn.addEventListener("click", () => {
 
     </script>
 
-      <!-- bootstrap js -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
    
+
+      <!-- bootstrap js -->
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <footer class="text-center">
+        Place sticky footer content here
+        <p>fyg</p>
+        <p>fyguhj</p>
+        <p>vguhj</p>
+      </footer>   
 </body>
 </html>
